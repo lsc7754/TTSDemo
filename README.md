@@ -3,11 +3,11 @@ TTS.APK Demo
 
 一个可以被系统设置识别的TTS至少需要包含一个Activity和一个Service。
 
-Activity（TTSActivity）
-需要同时响应两条Action
-１．android.speech.tts.engine.CHECK_TTS_DATA（添加可用的tts语音数据）
-２．android.speech.tts.engine.GET_SAMPLE_TEXT（检查是否有样例文本）
-具体返回数据形式见demo的TTSActivity（参考Google原生TTS和小爱.apk）
+Activity（TTSActivity）  
+需要同时响应两条Action  
+１．android.speech.tts.engine.CHECK_TTS_DATA（添加可用的tts语音数据）  
+２．android.speech.tts.engine.GET_SAMPLE_TEXT（检查是否有样例文本）  
+具体返回数据形式见demo的TTSActivity（参考Google原生TTS和小爱.apk）  
 
 Service（TTSService）
 TTS的核心Service继承自TextToSpeechService，
