@@ -18,4 +18,3 @@ TTS的核心Service继承自TextToSpeechService，
 
 
 （可选）可以创建一个Activity（demo中的MainActivity），作为TTSService的设置页面，也可以在其中提供一些介绍信息。
-
